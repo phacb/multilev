@@ -1,3 +1,9 @@
+# MultiLev phase control
+
+The source code required to send the phases to the pi-pico array are in 'multi_phase_control'
+
+# MultiLev construction
+
 An annotated image of a fully built MultiLev device can be found in MultiLev.pdf. 
 
 MultiLev is based on the original tinylev (https://www.instructables.com/Acoustic-Levitator/) with individually addressed transducers as in Ultraino (https://www.instructables.com/Ultrasonic-Array/). 
