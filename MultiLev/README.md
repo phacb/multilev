@@ -4,10 +4,10 @@
 - The phases are controlled using 9 x pi-picos and driver board (design included in this repository) to control the phases of each transducer individually.
 - The separation of the arrays are approximately 11.5 cm. The stepper motors, controlled using the GRBL controller, are used to adjust the height, which is optimised when the current is maximised.
 
-# MultiLev phase control
+## MultiLev phase control
 The code 'send-phases-twin-trap.py' in the directory 'MultiLev/multi_phase_control' sends the phases defined in 'phase_array_data.xlsx' to the pi-pico array.
 
-# 3D stl files
+## 3D stl files
 The stl files needed for MultiLev are included in the 'MultiLev/stl' directory.
 - top-array.stl --> the top array (prints best with the solid long edge as the base)
 - bottom-array.stl --> the lower array (prints best with the solid long edge as the base)
@@ -18,11 +18,11 @@ The stl files needed for MultiLev are included in the 'MultiLev/stl' directory.
 - mosfet-plate.stl --> the plate that goes onto the base for the mosfet connectors
 - mosfet-plate-bottom.slt --> for holding the soldered mosfet header board in place
 
-# Ultrasonic transducers
+## Ultrasonic transducers
 MultiLev is designed for 10 mm 40 kHz transducers, e.g., https://manorshi.en.alibaba.com/product/60248714908-801018150/10mm_40khz_piezo_ultrasonic_Transmitter_Receiver_sensor.html?spm=a2700.8304367.rect38f22d.1.2a14fee7WhfcRq (choose the 40khz T option). 
 #### Remember to check the polarity as in the tinylev instructables
 
-# Additional components required
+## Additional components required
 - 6 mm steel rod
 - Flange coupling connectors: https://www.amazon.co.uk/Coupling-Connector-Coupler-Accessory-Fittings/dp/B0833NTD9M?th=1
 - T8 lead screw (1mm) https://www.amazon.co.uk/Tenlacum-Printer-Thread-Copper-Stepper/dp/B07TKGMZN9?th=1
