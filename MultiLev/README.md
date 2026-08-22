@@ -1,6 +1,6 @@
 # MultiLev phase control
 
-The source code required to send the phases to the pi-pico array are in 'multi_phase_control'
+The code 'send-phases-twin-trap.py' in 'multi_phase_control' sends the phases defined in 'phase_array_data.xlsx' to the pi-pico array.
 
 # MultiLev construction
 
