@@ -1,4 +1,4 @@
-This folder contains the python and micropython code for the multilev driver.
+This folder contains the python and micropython code for the pi-pico multi-channel signal generator for multiLev
 
 master.py - micropython code to run on master pico
 slave.py  - micropython code to run on slave picos
