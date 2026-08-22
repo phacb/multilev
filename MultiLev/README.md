@@ -6,22 +6,14 @@ The phases are controlled using 9 x pi-picos and driver board (design included i
 
 The stl files needed for MultiLev are included in the stl directory.
 
-· top-array.stl --> the top array (prints best with the solid long edge as the base)
-
-· bottom-array.stl --> the lower array (prints best with the solid long edge as the base)
-
-· gantry base --> the gantry's holding the stepper motors and the GBRL controller are fixed to this
-
-· gantry.stl --> x2 needed - the gantry that the stepper motors are attached to (prints best with the flat edges of the legs as the base)
-
-· flange.stl --> x2 needed - the flange to hold the rotational bearings in place (prints best on its long thin edge as the base)
-
-· base.stl --> the base which the assembled levitator slots into
-
-· mosfet-plate.stl --> the plate that goes onto the base for the mosfet connectors
-
-· mosfet-plate-bottom.slt --> for holding the soldered mosfet header board in place
-
+- top-array.stl --> the top array (prints best with the solid long edge as the base)
+- bottom-array.stl --> the lower array (prints best with the solid long edge as the base)
+- gantry base --> the gantry's holding the stepper motors and the GBRL controller are fixed to this
+- gantry.stl --> x2 needed - the gantry that the stepper motors are attached to (prints best with the flat edges of the legs as the base)
+- flange.stl --> x2 needed - the flange to hold the rotational bearings in place (prints best on its long thin edge as the base)
+- base.stl --> the base which the assembled levitator slots into
+- mosfet-plate.stl --> the plate that goes onto the base for the mosfet connectors
+- mosfet-plate-bottom.slt --> for holding the soldered mosfet header board in place
 
 MultiLev is designed for 10 mm 40 kHz transducers, e.g., https://manorshi.en.alibaba.com/product/60248714908-801018150/10mm_40khz_piezo_ultrasonic_Transmitter_Receiver_sensor.html?spm=a2700.8304367.rect38f22d.1.2a14fee7WhfcRq (choose the 40khz T option). Check the polarity as in the tinylev instructables!
 
