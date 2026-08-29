@@ -1,6 +1,6 @@
 # MultiLev build instructions
 - An annotated image of a fully built MultiLev device can be found in 'MultiLev/MultiLev.pdf'. 
-- MultiLev is based on the original tinylev (https://www.instructables.com/Acoustic-Levitator/) with individually addressed transducers as in Ultraino (https://www.instructables.com/Ultrasonic-Array/). 
+- MultiLev is a variant of TinyLev (https://www.instructables.com/Acoustic-Levitator/) with individually addressed transducers as in Ultraino (https://www.instructables.com/Ultrasonic-Array/). 
 - The phases are controlled using 9 x pi-picos and driver board (design included in this repository) to control the phases of each transducer individually.
 - The separation of the arrays are approximately 11.5 cm. The stepper motors, controlled using the GRBL controller, are used to adjust the height, which is optimised when the current is maximised.
 
